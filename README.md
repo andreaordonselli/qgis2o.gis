@@ -1,9 +1,12 @@
 <h1>qgis2opengis</h1>
 <p>QGIS plugin to make <b>OpenGIS - open source webgis</b>, from your current QGIS project.
-It replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
+Made with OpenLayers, It replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
 No server-side software required.
 
-Full version at https://opengis.it</p>
+Full version at https://opengis.it
+
+Demo full version at
+https://opengis.it/demo</p>
 
 Improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
 
