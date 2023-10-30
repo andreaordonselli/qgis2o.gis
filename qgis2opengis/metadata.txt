@@ -15,12 +15,13 @@ qgisMaximumVersion=3.99
 description=Make OpenGIS - open source webgis
 about=Make OpenGIS from your current QGIS project.
     It replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon). No server-side software required.
+	
 	Full version at https://opengis.it
     
-	This plugin was born as a branch of the qgis2web v.3.16.0 repository, for openlayers export only, and adds many improvements and features listed in https://github.com/andreaordonselli/qgis2opengis
+	This plugin was born as a branch of the qgis2web v.3.16.0 repository, for openlayers export only, and adds many improvements and features
     
 	Special thanks go to the creators of qgis2web: Tom Chadwin, Riccardo Klinger, Victor Olaya, Nyall Dawson and to all the users of github.com, stackoverflow.com and gis.stackexchange.com
-version=1.0.0 added area measurement, fixed popup in case of measurement not closed
+version=1.0.0
 author=Andrea Ordonselli
 email=info@opengis.it
 
@@ -29,7 +30,7 @@ email=info@opengis.it
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-changelog=2023/11/24 1.0.0 Initial release
+changelog=https://github.com/andreaordonselli/qgis2opengis/releases
 
 # tags are comma separated with spaces allowed
 tags=web,webmap,webmaps,openLayers,html,javascript,css,export
@@ -44,4 +45,3 @@ experimental=False
 
 # deprecated flag (applies to the whole plugin, not just a single version
 deprecated=False
-
