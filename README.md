@@ -1,8 +1,3 @@
-[![GitHub version](https://badge.fury.io/gh/tomchadwin%2Fqgis2opengis.svg)](https://badge.fury.io/gh/tomchadwin%2Fqgis2opengis)
-[![Build Status](https://travis-ci.org/tomchadwin/qgis2opengis.svg?branch=master)](https://travis-ci.org/tomchadwin/qgis2opengis)
-[![Coverage Status](https://coveralls.io/repos/github/tomchadwin/qgis2opengis/badge.svg?branch=master)](https://coveralls.io/github/tomchadwin/qgis2opengis?branch=master)
-[![Join the chat at https://gitter.im/tomchadwin/qgis2opengis](https://badges.gitter.im/tomchadwin/qgis2opengis.svg)](https://gitter.im/tomchadwin/qgis2opengis?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Donate to QGIS](https://img.shields.io/badge/donate%20to-QGIS-green.svg)](http://qgis.org/en/site/getinvolved/donations.html)
 <h1>qgis2opengis</h1>
 <p>QGIS plugin to export your project to a Leaflet, OpenLayers or Mapbox GL JS 
 webmap. No server-side software required.</p>
@@ -211,6 +206,3 @@ software:</p>
     <li>rbush, by @mourner</li>
     <li>Labelgun, by @JamesMilnerUK</li>
 </ul>
-
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/tomchadwin/qgis2opengis.svg)](https://greenkeeper.io/)
