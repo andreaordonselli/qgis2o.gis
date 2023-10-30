@@ -163,7 +163,7 @@ is wasted in bug reporting, please follow these steps:</p>
 coming.</p>
 
 <h2>Credits</h2>
-<p>qgis2opengis was born as a branch of the qgis2web v.3.16.0 repository, for openlayers export only, and adds many improvements and features listed in https://github.com/andreaordonselli/qgis2opengis</p>
+<p>qgis2opengis was born as a branch of the qgis2web v.3.16.0 repository, for openlayers export only, and adds many improvements and features listed in this page
 <p>Special thanks go to the creators of qgis2web: Tom Chadwin, Riccardo Klinger, Victor Olaya, Nyall Dawson and to all the users of github.com, stackoverflow.com and gis.stackexchange.com</p>
 <ul>
     <li>@tomchadwin</li>
@@ -172,14 +172,14 @@ coming.</p>
     <li>@pcav</li>
 </ul>
 
-<p>Obviously, qgis2opengis could not exist without the following monumental
+<p>All of this could not exist without the following monumental
 software:</p>
 <ul>
     <li>QGIS</li>
     <li>OpenLayers</li>
 </ul>
 
-<p>Thanks are also due for major code contributions to:</p>
+<p>Thanks are also due for major code contributions of qgis2web, to:</p>
 <ul>
     <li>@akbargumbira</li>
     <li>@lucacasagrande</li>
@@ -192,7 +192,7 @@ software:</p>
     <li>@olakov</li>
 </ul>
 
-<p>In addition, the following libraries have been used:</p>
+<p>In addition, the following libraries have been used for qgis2web:</p>
 <ul>
     <li>bridge-style, by @volaya</li>
     <li>ol3-layerswitcher, by @walkermatt</li>
