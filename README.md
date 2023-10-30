@@ -1,13 +1,11 @@
 <h1>qgis2opengis</h1>
 <p>QGIS plugin to make <b>OpenGIS - open source webgis</b>, from your current QGIS project.
-It replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon).
+It replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
 No server-side software required.
 
 Full version at https://opengis.it</p>
 
-This plugin was born as a branch of the qgis2web v.3.16.0 repository, for openlayers export only, and adds many improvements and features.
-    
-Special thanks go to the creators of qgis2web: Tom Chadwin, Riccardo Klinger, Victor Olaya, Nyall Dawson and to all the users of github.com, stackoverflow.com and gis.stackexchange.com
+Improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
 
 <h2>Installation</h2>
 <ul>
@@ -30,40 +28,15 @@ your OpenGIS webmap. Specific tasks you can carry out to improve your OpenGIS in
     <li>If any of your fields contain image filenames, change their Edit widget to "Photo" to have the images appear in popups</li>
     <li>Style your layers, and set their scale-dependent visibility, if required</li>
 </ul>
-<p>Run qgis2opengis from the Web menu, or via its icon. If required, choose a
-basemap from the list below the preview pane, and click "Update preview".
-CTRL/CMD-click for multiple basemaps or to deselect a basemap.</p>
-<p>The top-left pane lets you set options for each layer in your map. The
-bottom-left pane sets overall options for your project. All options are written
-to your QGIS project, so save your project if you want to keep these settings.
-</p>
-
-<h2>Current limitations</h2>
-<p>QGIS, Leaflet, OpenLayers, and Mapbox GL JS are all different mapping 
-technologies. This means that their respective functionality differs in many 
-ways. qgis2opengis does its best to interpret a QGIS project and to export HTML, 
-Javascript, and CSS to create a web map as close to the QGIS project as 
-possible.</p>
-<p>However, many elements of a QGIS project cannot be reproduced, and many are
-only possible in <em>either</em> Leaflet, OpenLayers, <em>or</em> Mapbox GL 
-JS. qgis2opengis tries its best to produce a publish-ready map, but you can always 
-manually edit the output code to achieve what qgis2opengis cannot.</p>
-<ul>
-    <li>in OpenLayers maps, only single rendered points cluster, not 
-        categorized or graduated</li>
-    <li>line style (dashed/dotted) does not appear in OpenLayers preview, but 
-        works in export</li>
-    <li>only a single 2.5d layer will render per map</li>
-    <li>2.5d layers only appear when zoomed in to building scales</li>
-    <li>attribute filters and abstract export only works in leaflet based 
-        webmaps</li>
-</ul>
+<p>Run qgis2opengis from the Web menu, or via its icon.</p>
+<p>The tabs at the top allow you to set up your project. All options are written
+to your QGIS project, so save your project if you want to keep these settings.</p>
 
 <h3>Layer options</h3>
 <dl>
     <dt>Popup fields</dt>
         <dd>Specify how each field will be labelled in popups</dd>
-    dt>Popups</dt>
+    <dt>Popups</dt>
         <dd>Specify, whether or not a layer shows a popup on a click. If not, the layer is not even clickable</dd>
     <dt>Visible</dt>
         <dd>Select whether the layer will be visible on map load. This only
@@ -83,9 +56,6 @@ manually edit the output code to achieve what qgis2opengis cannot.</p>
 <dl>
     <dt>Export folder</dt>
         <dd>The folder where the webmap will be saved</dd> 
-    <dt>Mapping library location</dt>
-        <dd>Select whether to use a local copy of OL3/Leaflet, or whether to
-            call the library from its CDN</dd>
     <dt>Minify GeoJSON files</dt>
         <dd>Remove unnecessary whitespace from exported GeoJSON to reduce file
             size</dd>
@@ -108,8 +78,6 @@ manually edit the output code to achieve what qgis2opengis cannot.</p>
 
 <h4>Appearance</h4>
 <dl>
-    <dt>Add abstract</dt>
-        <dd>This will push the abtract from the projects metadata (field abstract) into the webmap as a collapsible info box. Supported in leaflet only</dd>
     <dt>Add address search</dt>
         <dd>Add field to allow searching for locations (geocode)</dd>
     <dt>Add layers list</dt>
