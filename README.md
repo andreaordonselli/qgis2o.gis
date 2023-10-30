@@ -1,6 +1,13 @@
 <h1>qgis2opengis</h1>
-<p>QGIS plugin to export your project to a Leaflet, OpenLayers or Mapbox GL JS 
-webmap. No server-side software required.</p>
+<p>QGIS plugin to make <b>OpenGIS - open source webgis</b>, from your current QGIS project.
+It replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon).
+No server-side software required.
+
+Full version at https://opengis.it</p>
+
+This plugin was born as a branch of the qgis2web v.3.16.0 repository, for openlayers export only, and adds many improvements and features.
+    
+Special thanks go to the creators of qgis2web: Tom Chadwin, Riccardo Klinger, Victor Olaya, Nyall Dawson and to all the users of github.com, stackoverflow.com and gis.stackexchange.com
 
 <h2>Installation</h2>
 <ul>
@@ -13,21 +20,15 @@ webmap. No server-side software required.</p>
 
 <h2>Usage</h2>
 <p>Prepare your map as far as possible in QGIS, as you want it to appear in
-your webmap. Specific tasks you can carry out to improve your webmap include:
+your OpenGIS webmap. Specific tasks you can carry out to improve your OpenGIS include:
 </p>
 <ul>
-    <li>Set your project title, and background and highlight colours in 
-        <code>Project > Project Properties...</code></li>
-    <li>Give your layers human-friendly names in the <code>Layers Panel</code>
-    </li>
-    <li>Give your layer columns human friendly names via <code>Layer >
-        Properties > Fields > Alias</code></li>
-    <li>Hide the columns you don't want to appear in your popups by changing
-        their Edit widget to "Hidden"</li>
-    <li>If any of your fields contain image filenames, change their Edit
-        widget to "Photo" to have the images appear in popups</li>
-    <li>Style your layers, and set their scale-dependent visibility, if
-        required</li>
+    <li>Set background and highlight colours in <code>Project > Project Properties...</code></li>
+    <li>Give your layers human-friendly names in the <code>Layers Panel</code> </li>
+    <li>Give your layer columns human friendly names via <code>Layer > Properties > Fields > Alias</code></li>
+    <li>Hide the columns you don't want to appear in your popups by changing their Edit widget to "Hidden"</li>
+    <li>If any of your fields contain image filenames, change their Edit widget to "Photo" to have the images appear in popups</li>
+    <li>Style your layers, and set their scale-dependent visibility, if required</li>
 </ul>
 <p>Run qgis2opengis from the Web menu, or via its icon. If required, choose a
 basemap from the list below the preview pane, and click "Update preview".
