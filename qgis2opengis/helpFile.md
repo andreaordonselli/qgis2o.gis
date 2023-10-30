@@ -1,7 +1,5 @@
 <h1>qgis2opengis</h1>
 
-<h1>qgis2opengis</h1>
-
 <h2>Usage</h2></br>
 <p>Prepare your map as far as possible in QGIS, as you want it to appear in
 your OpenGIS webmap. Specific tasks you can carry out to improve your OpenGIS include:
