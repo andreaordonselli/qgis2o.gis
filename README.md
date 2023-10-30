@@ -132,7 +132,7 @@ is wasted in bug reporting, please follow these steps:</p>
 coming.</p>
 
 <h2>Credits</h2>
-<p>qgis2opengis was born as a branch of the qgis2web v.3.16.0 repository, for openlayers export only, and adds many improvements and features listed in this page
+<p>qgis2opengis was born as a branch of the qgis2web v.3.16.0 repository, for openlayers export only, and adds many improvements and features.</p>
 <p>Special thanks go to the creators of qgis2web: Tom Chadwin, Riccardo Klinger, Victor Olaya, Nyall Dawson and to all the users of github.com, stackoverflow.com and gis.stackexchange.com</p>
 <ul>
     <li>@tomchadwin</li>
