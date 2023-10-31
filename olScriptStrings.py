@@ -1,6 +1,6 @@
 from . import xmltodict
 
-from qgis2web.olStyleScripts import getStrokeStyle
+from qgis2opengis.olStyleScripts import getStrokeStyle
 
 
 def measureControlScript():
