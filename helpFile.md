@@ -1,6 +1,7 @@
 <h1>qgis2opengis</h1>
 
 <h2>Usage</h2>
+<br></br>
 <p>Prepare your map as far as possible in QGIS, as you want it to appear in
 your webmap. Specific tasks you can carry out to improve your webmap include:
 </p>
@@ -24,6 +25,7 @@ to your QGIS project, so save your project if you want to keep these settings.
 </p>
 
 <h3>Layer options</h3>
+<br></br>
 <dl>
     <dt>Popup fields</dt>
         <dd>Specify how each field will be labelled in popups</dd>
@@ -44,6 +46,7 @@ to your QGIS project, so save your project if you want to keep these settings.
 <h3>General options</h3>
 
 <h4>Data export</h4>
+<br></br>
 <dl>
     <dt>Export folder</dt>
         <dd>The folder where the webmap will be saved</dd> 
@@ -55,6 +58,7 @@ to your QGIS project, so save your project if you want to keep these settings.
 </dl>
 
 <h4>Scale/Zoom</h4>
+<br></br>
 <dl>
     <dt>Extent</dt>
         <dd>Either match the current QGIS view or show all contents of all
@@ -68,6 +72,7 @@ to your QGIS project, so save your project if you want to keep these settings.
 </dl>
 
 <h4>Appearance</h4>
+<br></br>
 <dl>
     <dt>Add address search</dt>
         <dd>Add field to allow searching for locations (geocode)</dd>
@@ -94,6 +99,7 @@ to your QGIS project, so save your project if you want to keep these settings.
 </dl>
 
 <h2>Reporting bugs</h2>
+<br></br>
 <p>Please report any problems you have with qgis2opengis. Without this feedback, I
 am often completely unaware that a problem exists. To ensure no time or effort
 is wasted in bug reporting, please follow these steps:</p>
