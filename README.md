@@ -10,6 +10,8 @@ https://opengis.it/demo</p>
 
 Improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
 
+Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) v.3.16.0 repository
+
 <h2>Installation</h2>
 <ul>
     <li>In QGIS, select <code>Plugins > Manage and Install Plugins...</code></li>
