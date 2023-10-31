@@ -64,6 +64,10 @@ th, td {
     text-align: left;
 }
 
+.layer-switcher.shown {
+	bottom: 6em;
+}
+
 #popup-content>ul>li:nth-child(even) {
     background-color: #eee;
 }
@@ -136,3 +140,8 @@ th, td {
 .ol-control button.clicked{
 	background-color: rgba(251, 214, 105)!important;
 	}
+	
+.ol-zoom {
+    top: 75px;
+    left: 7px;
+}	

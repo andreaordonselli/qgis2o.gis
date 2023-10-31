@@ -2,18 +2,18 @@
 
 ![image](https://www.opengis.it/ente/demo/stemma.png)
 
-QGIS plugin to make <b>OpenGIS - open source webgis</b>, from your current QGIS project.
+QGIS plugin to make Lite version of <b>OpenGIS - open source webgis</b>, from your current QGIS project.
 
 Made with OpenLayers, it replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
 No server-side software required.
-
-Full version at https://opengis.it
 
 Improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
 
 Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) v.3.16.0 repository
 
-Demo full version at https://opengis.it/demo
+Demo Lite version at https://opengis.it/lite-version/
+
+Demo Full version at https://opengis.it/demo
 
 ![image](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/6236147d-26e2-4c67-bb8f-236831e7929b)
 

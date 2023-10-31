@@ -373,6 +373,12 @@ var formatArea = function (polygon) {
 };
 
 addInteraction();
+
+var parentElement = document.querySelector(".measure-control");
+var elementToMove = document.getElementById("form_measure");
+if (elementToMove && parentElement) {
+  parentElement.insertBefore(elementToMove, parentElement.firstChild);
+}
 """
     return measureUnitFeet
 
@@ -434,8 +440,8 @@ if (elementToMove && parentElement) {
 
 
 def measureStyleScript(controlCount):
-    pos = 65 + (controlCount * 35)
-    touchPos = 80 + (controlCount * 50)
+    pos = 130 + (controlCount * 35)
+    touchPos = 145 + (controlCount * 50)
     measureStyle = """
 <style>
 .tooltip {
@@ -482,8 +488,8 @@ def measureStyleScript(controlCount):
 
 
 def layerSearchStyleScript(controlCount):
-    pos = 65 + (controlCount * 35)
-    touchPos = 80 + (controlCount * 50)
+    pos = 130 + (controlCount * 35)
+    touchPos = 145 + (controlCount * 50)
     layerSearchStyle = """
 <style>
 .search-layer {
@@ -582,8 +588,8 @@ var geolocateControl = (function (Control) {
 
 def geolocateStyle(geolocate, controlCount):
     if geolocate:
-        ctrlPos = 65 + (controlCount * 35)
-        touchCtrlPos = 80 + (controlCount * 50)
+        ctrlPos = 130 + (controlCount * 35)
+        touchCtrlPos = 145 + (controlCount * 50)
         controlCount = controlCount + 1
         return ("""
         <style>

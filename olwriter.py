@@ -415,14 +415,14 @@ def getCSS(geocode, geolocateUser, layerSearch, controlCount):
         <link rel="stylesheet" """
     extracss += """href="./resources/qgis2opengis.css">"""
     if geocode:
-        geocodePos = 65 + (controlCount * 35)
-        touchPos = 80 + (controlCount * 50)
+        geocodePos = 130 + (controlCount * 35)
+        touchPos = 145 + (controlCount * 50)
         controlCount += 1
         extracss += """
         <style>
         .ol-geocoder.gcd-gl-container {
             top: %dpx!important;
-            left: .5em!important;
+            left: 8px!important;
             width: 2.1em!important;
             height: 2.1em!important;
         }

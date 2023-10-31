@@ -25,9 +25,36 @@
         <title>@PAGETITLE@</title>
     </head>
     <body>
-        <div id="map">
+        <div id="map" style="position: relative;">
             @OL3_POPUP@
-        </div>
+		
+		<!--form logo -->
+			<div id="form_logo" 
+			style="	position: absolute;
+			background-color: #f8f8f8;
+			border: 2px solid #f8f8f8 ;
+			border-top: none ;
+			z-index: 1;
+			opacity: 1;
+			top: 8px;
+			left: 8px;
+			margin: 0;
+			width: 185px;
+			height: 60px;
+			vertical-align: middle;">
+			<label><a href="./index.html"><img src="./resources/stemma.png" align="left" height="60" title='Reset map'></img></a></label>
+			<h1 align="center" 
+			style="font-size: 13px;
+			font-family: 'arial';
+			width: 125px;
+			height: 60px;
+			position: absolute;
+			left: 60px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0px;">@PAGETITLE@</h1>
+			</div>
 		<!-- form measurement -->
 			<form id="form_measure" style="display: none">
 			  <label>&nbsp;Misura:&nbsp;</label>
@@ -36,6 +63,29 @@
 				<option value="Polygon">Area</option>
 			  </select>
 			</form>
+		<!--form opengis -->
+			<div id="form_opengis"
+			style=" position:absolute; 
+			z-index:1; 
+			background-color: #fff;
+			border: 2px solid #fff;
+			border-radius: 3px;
+			box-shadow: 0 1px 4px rgb(0 0 0 / 30%);
+			opacity: 1;
+			bottom: 24px;
+			right: 8px;
+			margin: 0;
+			width: 27px;
+			height: 27px;
+			vertical-align: middle;">
+			<a href="https://www.opengis.it/" target="_blank"><label><img src="./resources/opengis.png" title="OpenGIS Lite version"
+			style="position: absolute;
+			left: 1px;
+			float: center;
+			height: 26px ;
+			cursor: pointer;"></img></label></a>
+			</div>
+        </div>
         @EXP_JS@
         @OL3_PROJ4@
         @OL3_PROJDEF@
