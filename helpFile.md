@@ -1,20 +1,27 @@
 <h1>qgis2opengis</h1>
 
-<h2>Usage</h2></br>
+<h2>Usage</h2>
 <p>Prepare your map as far as possible in QGIS, as you want it to appear in
-your OpenGIS webmap. Specific tasks you can carry out to improve your OpenGIS include:
+your webmap. Specific tasks you can carry out to improve your webmap include:
 </p>
 <ul>
-    <li>Set background and highlight colours in <code>Project > Project Properties...</code></li>
-    <li>Give your layers human-friendly names in the <code>Layers Panel</code> </li>
-    <li>Give your layer columns human friendly names via <code>Layer > Properties > Fields > Alias</code></li>
-    <li>Hide the columns you don't want to appear in your popups by changing their Edit widget to "Hidden"</li>
-    <li>If any of your fields contain image filenames, change their Edit widget to "Photo" to have the images appear in popups</li>
-    <li>Style your layers, and set their scale-dependent visibility, if required</li>
+    <li>Set your project title, and background and highlight colours in 
+        <code>Project > Project Properties...</code></li>
+    <li>Give your layers human-friendly names in the <code>Layers Panel</code>
+    </li>
+    <li>Give your layer columns human friendly names via <code>Layer >
+        Properties > Fields > Alias</code></li>
+    <li>Hide the columns you don't want to appear in your popups by changing
+        their Edit widget to "Hidden"</li>
+    <li>If any of your fields contain image filenames, change their Edit
+        widget to "Photo" to have the images appear in popups</li>
+    <li>Style your layers, and set their scale-dependent visibility, if
+        required</li>
 </ul>
 <p>Run qgis2opengis from the Web menu, or via its icon.</p>
-<p>The tabs at the top allow you to set up your project. All options are written
-to your QGIS project, so save your project if you want to keep these settings.</p>
+<p>The top pane lets you set options for your map. All options are written
+to your QGIS project, so save your project if you want to keep these settings.
+</p>
 
 <h3>Layer options</h3>
 <dl>
@@ -83,8 +90,7 @@ to your QGIS project, so save your project if you want to keep these settings.</
         <dd>Show popups when mouse hovers over features</dd>
     <dt>Template</dt>
         <dd>Select HTML template for webmap - add your own templates to the
-            /qgis2opengis/templates directory in your current QGIS3 profile 
-            folder</dd>
+            /qgis2opengis/templates directory in your .qgis2 folder</dd>
 </dl>
 
 <h2>Reporting bugs</h2>
