@@ -1,12 +1,12 @@
 #/***************************************************************************
 # qgis2opengis_class
 #
-# Export your QGIS map to a webmap
+# Make Lite version of OpenGIS - open source webgis
 #							 -------------------
-#		begin				: 2015-03-26
+#		begin				: 2023-10-31
 #		git sha				: $Format:%H$
-#		copyright			: (C) 2015 by Riccardo Klinger / Geolicious
-#		email				: riccardo.klinger@geolicious.de
+#		copyright			: (C) 2023 by Andrea Ordonselli
+#		email				: info@opengis.it
 # ***************************************************************************/
 #
 #/***************************************************************************
@@ -50,7 +50,7 @@ PY_FILES = \
 
 UI_FILES = qgis2opengis_mod_dialog_base.ui ui_ftp_configuration.ui ui_feedback_dialog.ui
 
-EXTRAS = icon.png metadata.txt
+EXTRAS = qgis2opengis.png metadata.txt
 
 COMPILED_RESOURCE_FILES = resources_rc.py
 

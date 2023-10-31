@@ -14,7 +14,7 @@ qgisMinimumVersion=2.99
 qgisMaximumVersion=3.99
 description=Make Lite version of OpenGIS - open source webgis
 about=
- QGIS plugin to make Lite version of <b>OpenGIS</b>, from your current QGIS project.
+ QGIS plugin to make Lite version of OpenGIS, from your current QGIS project.
  
  Made with OpenLayers, it replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other. No server-side software required.
  
@@ -24,7 +24,7 @@ about=
  
  Born from the qgis2web v.3.16.0 repository, special thanks go to the creators of qgis2web: Tom Chadwin, Riccardo Klinger, Victor Olaya, Nyall Dawson and to all the users of github.com, stackoverflow.com and gis.stackexchange.com
 
-version=1.0.0
+version=0.1
 author=Andrea Ordonselli
 email=info@opengis.it
 
@@ -33,7 +33,9 @@ email=info@opengis.it
 # Optional items:
 
 # Uncomment the following line and add your changelog entries:
-changelog=https://github.com/andreaordonselli/qgis2opengis/releases
+#changelog=
+     0.1
+        * First release: added area measurement - fix popup if measurement not completed - updated ol-geocoder (search fix, use with smartphone, use with ol-ext, new marker) - changed attribution by adding qgis2opengis - opengis credit icon - opengis logo with project title
 
 # tags are comma separated with spaces allowed
 tags=opengis,web,webmap,webmaps,openLayers,html,javascript,css,export
@@ -42,7 +44,7 @@ homepage=https://opengis.it
 tracker=https://github.com/andreaordonselli/qgis2opengis/issues
 repository=https://github.com/andreaordonselli/qgis2opengis
 icon=qgis2opengis.png
-category=Plugins
+category=web
 
 # experimental flag
 experimental=False
