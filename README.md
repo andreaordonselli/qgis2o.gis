@@ -1,5 +1,4 @@
 <h1>qgis2opengis</h1>
-![image](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/30128759-233d-4d44-b8de-9da50127a093)
 
 <p>QGIS plugin to make <b>OpenGIS - open source webgis</b>, from your current QGIS project.</p>
 <p>Made with OpenLayers, it replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
