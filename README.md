@@ -286,7 +286,6 @@ software:</p>
     <li>Proj4js, by @madair, @calvinmetcalf, and other</li>
     <li>ol3-search-layer, by @ThomasG77</li>
     <li>OSMBuildings, by @kekscom</li>
-    <li>multi-style-layer, by @perliedman</li>
     <li>rbush, by @mourner</li>
     <li>Labelgun, by @JamesMilnerUK</li>
 </ul>
