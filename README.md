@@ -41,8 +41,8 @@ Demo Full version at https://opengis.it/demo
  <td>search address, locate with GPS</td>
   </tr>
   <tr>
- <td>Search for feature data</td>
- <td>Search for multi-feature data</td>
+ <td>search for feature data</td>
+ <td>search for multi-feature data</td>
   </tr>
   <tr>
  <td>basic popup</td>
@@ -53,7 +53,7 @@ Demo Full version at https://opengis.it/demo
  <td>clusters for points and labels</td>
   </tr>
   <tr>
- <td>layerswitcherbase</td>
+ <td>basic layerswitcher</td>
  <td>advanced layerswitcher with transparency / zoom extension /</br>
 	move layers / legend / reduced themes / automatic open-close</br>
 	based on monitor size
