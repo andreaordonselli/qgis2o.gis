@@ -103,6 +103,10 @@ Demo Full version at https://opengis.it/demo
  <td>-</td>
  <td>descriptive sidebar divided into tabs</td>
   </tr>
+  <tr>
+ <td>-</td>
+ <td>query wms layer</td>
+  </tr>
 </tbody>
 </table>
 
