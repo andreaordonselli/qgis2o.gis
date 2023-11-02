@@ -18,6 +18,93 @@ Demo Lite version at https://opengis.it/lite-version/
 Demo Full version at https://opengis.it/demo
 ![image](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/8e66723a-e824-4cd4-a175-9a85b6479f3c)
 
+<h2>Differences between Lite and full Version</h2>
+
+<table class="tg" style="table-layout: fixed; width: 150px;">
+<thead>
+  <tr>
+ <th>OpenGIS Lite Version</th>
+ <th>OpenGIS Full Version</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+ <td>logo and title</td>
+ <td>logo and title</td>
+  </tr>
+  <tr>
+ <td>measure length / area</td>
+ <td>measure length /area / circle</td>
+  </tr>
+  <tr>
+ <td>search address</td>
+ <td>search address, locate with GPS</td>
+  </tr>
+  <tr>
+ <td>Search for feature data</td>
+ <td>Search for multi-feature data</td>
+  </tr>
+  <tr>
+ <td>basic popup</td>
+ <td>advanced browsable popup with current geometry highlighting</td>
+  </tr>
+  <tr>
+ <td>clusters for points and labels</td>
+ <td>clusters for points and labels</td>
+  </tr>
+  <tr>
+ <td>layerswitcherbase</td>
+ <td>advanced layerswitcher with transparency / zoom extension /</br>
+	move layers / legend / reduced themes / automatic open-close</br>
+	based on monitor size
+  </tr>
+  <tr>
+ <td>scalebar</td>
+ <td>scalebar and scale-control</td>
+  </tr>
+  <tr>
+ <td>symbolgiasingola / categorized / graduated / svg / raster also in bands</td>
+ <td>symbolgiasingula / categorized and merged / graduated / svg / raster also in bands</td>
+  </tr>
+  <tr>
+ <td>-</td>
+ <td>drawing tools</td>
+  </tr>
+  <tr>
+ <td>-</td>
+ <td>table view of layer attributes with quick or</br>
+	in-depth search filters on one or more fields</td>
+  </tr>
+  <tr>
+ <td>-</td>
+ <td>spatial query (querying features of layers chosen through</br>
+	personalized intersection with drawn geometries, selection in map</br>
+	or cadastral particles) with result in table that can be grouped</br>
+	by layer or other, downloadable in xlsx or docx.
+  </tr>
+  <tr>
+ <td>-</td>
+ <td>mini-map</td>
+  </tr>
+  <tr>
+ <td>-</td>
+ <td>advanced printing, orientation customization, sheet size,</br>
+	margins, legend, north, scale, title</td>
+  </tr>
+  <tr>
+ <td>-</td>
+ <td>permalink (shareable link to the displayed map)</td>
+  </tr>
+  <tr>
+ <td>-</td>
+ <td>google streetview</td>
+  </tr>
+  <tr>
+ <td>-</td>
+ <td>descriptive sidebar divided into tabs</td>
+  </tr>
+</tbody>
+</table>
 
 <h2>Installation</h2>
 <ul>
