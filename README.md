@@ -12,15 +12,15 @@ Improvements and new features listed at [releases](https://github.com/andreaordo
 Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) v.3.16.0 repository
 
 Demo Lite version at https://opengis.it/lite-version/
-![2023-10-31 10_56_28-Window](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/6b8ad798-65c7-4252-9b2d-29106116bb9d)
-
+![lite](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/be86035c-78be-4ebb-9156-eb1b1da182f8)
 
 Demo Full version at https://opengis.it/demo
-![image](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/8e66723a-e824-4cd4-a175-9a85b6479f3c)
+![full](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/98d00bd6-988a-4801-b449-844b5d4bf0f3)
+
 
 <h2>Differences between Lite and full Version</h2>
 
-<table class="tg" style="table-layout: fixed; width: 150px;">
+<table>
 <thead>
   <tr>
  <th>OpenGIS Lite Version</th>
