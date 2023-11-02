@@ -84,7 +84,7 @@ Demo Full version at https://opengis.it/demo
   </tr>
   <tr>
  <td>-</td>
- <td>mini-map</td>
+ <td>navigable mini map</td>
   </tr>
   <tr>
  <td>-</td>
