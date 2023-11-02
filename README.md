@@ -107,6 +107,10 @@ Demo Full version at https://opengis.it/demo
  <td>-</td>
  <td>query wms layer</td>
   </tr>
+  <tr>
+ <td>-</td>
+ <td>coordinates when moving the mouse in different epsg</td>
+  </tr>
 </tbody>
 </table>
 
@@ -211,6 +215,7 @@ to your QGIS project, so save your project if you want to keep these settings.</
 <li>increase of the openlayers version from 3 to 6.15.1</li>
 <li>advanced layerswitcher with transparency, move layer and zoom extension as full version</li>
 <li>wms layer query as full version</li>
+<li>show project coordinates</li>
 <li>layer, layer group tree management as in qgis</li>
 
 <h2>Reporting bugs</h2>
