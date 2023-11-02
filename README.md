@@ -63,8 +63,8 @@ Demo Full version at https://opengis.it/demo
  <td>scalebar and scale-control</td>
   </tr>
   <tr>
- <td>symbolgiasingola / categorized / graduated / svg / raster also in bands</td>
- <td>symbolgiasingula / categorized and merged / graduated / svg / raster also in bands</td>
+ <td>single symbology / categorized / graduated / svg / raster also in bands</td>
+ <td>single symbology / categorized and merged / graduated / svg / raster also in bands</td>
   </tr>
   <tr>
  <td>-</td>
