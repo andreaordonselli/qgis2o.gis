@@ -206,6 +206,13 @@ to your QGIS project, so save your project if you want to keep these settings.</
             folder</dd>
 </dl>
 
+<h2>Update Plan</h2>
+<li>integration with ol-ext and jquery libraries</li>
+<li>increase of the openlayers version from 3 to 6.15.1</li>
+<li>advanced layerswitcher with transparency, move layer and zoom extension as full version</li>
+<li>wms layer query as full version</li>
+<li>layer, layer group tree management as in qgis</li>
+
 <h2>Reporting bugs</h2>
 <p>Please report any problems you have with qgis2opengis. Without this feedback, I
 am often completely unaware that a problem exists. To ensure no time or effort
