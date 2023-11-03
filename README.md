@@ -22,95 +22,115 @@ Demo Full version at https://opengis.it/demo
 
 <table>
 <thead>
-  <tr>
- <th>OpenGIS Lite Version</th>
- <th>OpenGIS Full Version</th>
-  </tr>
+<tr>
+<th>OpenGIS Lite Version</th>
+<th>OpenGIS Full Version</th>
+</tr>
 </thead>
 <tbody>
-  <tr>
- <td>logo and title</td>
- <td>logo and title</td>
-  </tr>
-  <tr>
- <td>measure length / area</td>
- <td>measure length /area / circle</td>
-  </tr>
-  <tr>
- <td>search address</td>
- <td>search address, locate with GPS</td>
-  </tr>
-  <tr>
- <td>search for feature data</td>
- <td>search for multi-feature data</td>
-  </tr>
-  <tr>
- <td>basic popup</td>
- <td>advanced browsable popup with current geometry highlighting</td>
-  </tr>
-  <tr>
- <td>clusters for points and labels</td>
- <td>clusters for points and labels</td>
-  </tr>
-  <tr>
- <td>basic layerswitcher</td>
- <td>advanced layerswitcher with transparency / zoom extension /</br>
-	move layers / legend / reduced themes / automatic open-close</br>
-	based on monitor size
-  </tr>
-  <tr>
- <td>scalebar</td>
- <td>scalebar and scale-control</td>
-  </tr>
-  <tr>
- <td>single symbology / categorized / graduated / svg / raster also in bands</td>
- <td>single symbology / categorized and merged / graduated / svg / raster also in bands</td>
-  </tr>
-  <tr>
- <td>-</td>
- <td>drawing tools</td>
-  </tr>
-  <tr>
- <td>-</td>
- <td>table view of layer attributes with quick or</br>
-	in-depth search filters on one or more fields</td>
-  </tr>
-  <tr>
- <td>-</td>
- <td>spatial query (querying features of layers chosen through</br>
-	personalized intersection with drawn geometries, selection in map</br>
-	or cadastral particles) with result in table that can be grouped</br>
-	by layer or other, downloadable in xlsx or docx.
-  </tr>
-  <tr>
- <td>-</td>
- <td>navigable mini map</td>
-  </tr>
-  <tr>
- <td>-</td>
- <td>advanced printing, orientation customization, sheet size,</br>
-	margins, legend, north, scale, title</td>
-  </tr>
-  <tr>
- <td>-</td>
- <td>permalink (shareable link to the displayed map)</td>
-  </tr>
-  <tr>
- <td>-</td>
- <td>google streetview</td>
-  </tr>
-  <tr>
- <td>-</td>
- <td>descriptive sidebar divided into tabs</td>
-  </tr>
-  <tr>
- <td>-</td>
- <td>query wms layer</td>
-  </tr>
-  <tr>
- <td>-</td>
- <td>coordinates when moving the mouse in different epsg</td>
-  </tr>
+<tr>
+<td>logo and title</td>
+<td>logo and title</td>
+</tr>
+<tr>
+<td>measure length / area</td>
+<td>measure length /area / circle</td>
+</tr>
+<tr>
+<td>search address</td>
+<td>search address, locate with GPS</td>
+</tr>
+<tr>
+<td>search for feature data</td>
+<td>search for multi-feature data</td>
+</tr>
+<tr>
+<td>basic popup</td>
+<td>advanced browsable popup with current geometry highlighting</td>
+</tr>
+<tr>
+<td>clusters for points and labels</td>
+<td>clusters for points and labels</td>
+</tr>
+<tr>
+<td>basic layerswitcher</td>
+<td>advanced layerswitcher with transparency / zoom extension /</br>
+move layers / legend / reduced themes / automatic open-close</br>
+based on monitor size
+</tr>
+<tr>
+<td>scalebar</td>
+<td>scalebar and scale-control</td>
+</tr>
+<tr>
+<td>single symbology / categorized / graduated / svg / raster also in bands</td>
+<td>single symbology / categorized and merged / graduated / svg / raster also in bands</td>
+</tr>
+<tr>
+<td>basic browser printing</td>
+<td>advanced printing, orientation customization, sheet size,</br>
+margins, legend, north, scale, title</td>
+</tr>
+<tr>
+<td>-</td>
+<td>reserved version protected by access credentials</td>
+</tr> 
+<tr>
+<td>-</td>
+<td>coordinates in different crs</td>
+</tr>  
+<tr>
+<td>-</td>
+<td>bookmarks (zoom in selected areas e.g. neighborhoods)</td>
+</tr>
+<tr>
+<td>-</td>
+<td>label repetition along a linear path</td>
+</tr> 
+<tr>
+<td>-</td>
+<td>drawing tools</td>
+</tr>
+<tr>
+<td>-</td>
+<td>table view of layer attributes with quick or</br>
+in-depth search filters on one or more fields</td>
+</tr>
+<tr>
+<td>-</td>
+<td>spatial query (querying features of layers chosen through</br>
+personalized intersection with drawn geometries, selection in map</br>
+or cadastral particles) with result in table that can be grouped</br>
+by layer or other, downloadable in xlsx or docx.
+</tr>
+<tr>
+<td>-</td>
+<td>navigable mini map</td>
+</tr>
+<tr>
+<td>-</td>
+<td>permalink (shareable link to the displayed map)</td>
+</tr>
+<tr>
+<td>-</td>
+<td>thematic maps with related permalink</td>
+</tr> 
+<tr>
+<td>-</td>
+<td>google streetview</td>
+</tr>
+<tr>
+<td>-</td>
+<td>descriptive sidebar divided into tabs, graphics optimized for </br>smartphones</td>
+</tr>
+<tr>
+<td>-</td>
+<td>query wms layer</td>
+</tr>
+<tr>
+<td>-</td>
+<td>coordinates when moving the mouse in different epsg</td>
+</tr>
 </tbody>
 </table>
 
@@ -213,10 +233,17 @@ to your QGIS project, so save your project if you want to keep these settings.</
 <h2>Update Plan</h2>
 <li>integration with ol-ext and jquery libraries</li>
 <li>increase of the openlayers version from 3 to 6.15.1</li>
-<li>advanced layerswitcher with transparency, move layer and zoom extension as full version</li>
+<li>improved layerswitcher with reduced symbologies and predefined base layers</li>
 <li>wms layer query as full version</li>
 <li>show project coordinates</li>
+<li>improve popup by inserting queried layer title</li>
 <li>layer, layer group tree management as in qgis</li>
+<li>bug fix that doesn't allow writing apostrophes in layer names</li>
+<li>improve visibility for smartphones (deactivate visibility of measurement tools and more)</li>
+<li>change default setting: the layers visible in qgis will be set as not visible by default</li>
+<li>change default: all layers acquire popup inline labels by default</li>
+<li>integration with google street view</li>
+
 
 <h2>Reporting bugs</h2>
 <p>Please report any problems you have with qgis2opengis. Without this feedback, I
