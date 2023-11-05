@@ -242,7 +242,6 @@ to your QGIS project, so save your project if you want to keep these settings.</
 <li>improve visibility for smartphones (deactivate visibility of measurement tools and more)</li>
 <li>change default setting: the layers visible in qgis will be set as not visible by default</li>
 <li>change default: all layers acquire popup inline labels by default</li>
-<li>integration with google street view</li>
 
 
 <h2>Reporting bugs</h2>
