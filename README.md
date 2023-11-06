@@ -1,6 +1,6 @@
 <h1>qgis2opengis</h1>
 
-![image](https://www.opengis.it/ente/demo/stemma.png)
+![image](https://www.opengis.it/a_opengis/icon/logo_opengis/opengis_logo.png)
 
 QGIS plugin to make <b>Lite version of OpenGIS - open source webgis</b>, starting from your current QGIS project.
 
