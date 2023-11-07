@@ -231,8 +231,7 @@ to your QGIS project, so save your project if you want to keep these settings.</
 </dl>
 
 <h2>Update Plan</h2>
-<li>integration with ol-ext and jquery libraries</li>
-<li>increase of the openlayers version from 3 to 6.15.1</li>
+<li>update help with some basic advice useful for setting up the map</li>
 <li>improved layerswitcher with reduced symbologies and predefined base layers</li>
 <li>wms layer query as full version</li>
 <li>show project coordinates</li>
@@ -242,6 +241,7 @@ to your QGIS project, so save your project if you want to keep these settings.</
 <li>improve visibility for smartphones (deactivate visibility of measurement tools and more)</li>
 <li>change default setting: the layers visible in qgis will be set as not visible by default</li>
 <li>change default: all layers acquire popup inline labels by default</li>
+
 
 
 <h2>Reporting bugs</h2>
