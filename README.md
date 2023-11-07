@@ -232,7 +232,7 @@ to your QGIS project, so save your project if you want to keep these settings.</
 
 <h2>Update Plan</h2>
 <li>update help with some basic advice useful for setting up the map</li>
-<li>improved layerswitcher with reduced symbologies and predefined base layers</li>
+<li>improved layerswitcher with reduced symbologies and predefined base layers "White background"</li>
 <li>wms layer query as full version</li>
 <li>show project coordinates</li>
 <li>improve popup by inserting queried layer title</li>
