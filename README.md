@@ -18,7 +18,7 @@ Demo Full version at https://opengis.it/demo
 ![full](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/98d00bd6-988a-4801-b449-844b5d4bf0f3)
 
 
-<h2>Differences between Lite and full Version</h2>
+<h2>Differences between Lite and Full Version</h2>
 
 <table>
 <thead>
