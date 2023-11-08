@@ -10,10 +10,10 @@ No server-side software required.
 Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) v.3.16.0 repository, introduces improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
 
 Demo Lite version at https://opengis.it/lite-version/
-![lite](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/be86035c-78be-4ebb-9156-eb1b1da182f8)
+![lite](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/a013e5a8-fe79-4fec-aa6d-fd6a024de1a5)
 
-Demo Full version at https://opengis.it/demo
-![full](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/98d00bd6-988a-4801-b449-844b5d4bf0f3)
+Demo Full version at https://opengis.it/full-version/
+![full](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/d10b5b6d-3d0d-4715-be90-87e69fb9ec1d)
 
 
 <h2>Differences between Lite and Full Version</h2>
@@ -99,18 +99,6 @@ margins, legend, north, scale, title</td>
 </tr>
 <tr>
 <td>-</td>
-<td>table view of layer attributes with quick or</br>
-in-depth search filters on one or more fields</td>
-</tr>
-<tr>
-<td>-</td>
-<td>spatial query (querying features of layers chosen through</br>
-personalized intersection with drawn geometries, selection in map</br>
-or cadastral particles) with result in table that can be grouped</br>
-by layer or other, downloadable in xlsx or docx.
-</tr>
-<tr>
-<td>-</td>
 <td>navigable mini map</td>
 </tr>
 <tr>
@@ -139,6 +127,13 @@ by layer or other, downloadable in xlsx or docx.
 </tr>
 </tbody>
 </table>
+
+<h2>OpenGIS Pro Version</h2>
+It is possible to access the Pro version only with hosting on OpenGIS servers, write to us at <a href="mailto:info@opengis.it">info@opengis.it</a> for more information.</br>
+The Pro version is like the Full version with added ones:
+<li>table view of layer attributes with quick or in-depth search filters on one or more fields</li>
+<li>spatial query (querying features of layers chosen through personalized intersection with drawn geometries, selection in map or cadastral particles) with result in table that can be grouped by layer or other, downloadable in xlsx or docx.</li>
+Demo Pro version at https://opengis.it/demo/
 
 <h2>Installation</h2>
 <ul>
