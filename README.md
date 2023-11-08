@@ -7,9 +7,7 @@ QGIS plugin to make <b>Lite version of OpenGIS - open source webgis</b>, startin
 Made with OpenLayers, it replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
 No server-side software required.
 
-Improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
-
-Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) v.3.16.0 repository
+Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) v.3.16.0 repository, introduces improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
 
 Demo Lite version at https://opengis.it/lite-version/
 ![lite](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/be86035c-78be-4ebb-9156-eb1b1da182f8)
