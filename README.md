@@ -71,6 +71,14 @@ margins, legend, north, scale, title</td>
 </tr>
 <tr>
 <td>-</td>
+<td>integration with ol-ext and jquery libraries</td>
+</tr>
+<tr>
+<td>-</td>
+<td>increase openlayers library version from 3 to 6.15.1</td>
+</tr> 
+<tr>
+<td>-</td>
 <td>reserved version protected by access credentials</td>
 </tr> 
 <tr>
