@@ -149,7 +149,7 @@ Demo Pro version at https://opengis.it/demo/
 your OpenGIS webmap. Specific tasks you can carry out to improve your OpenGIS include:
 </p>
 <ul>
-    <li>Set background and highlight colours in <code>Project > Project Properties...</code></li>
+    <li>Set title, background and highlight colours in <code>Project > Project Properties...</code></li>
     <li>Give your layers human-friendly names in the <code>Layers Panel</code> </li>
     <li>Give your layer columns human friendly names via <code>Layer > Properties > Fields > Alias</code></li>
     <li>Hide the columns you don't want to appear in your popups by changing their Edit widget to "Hidden"</li>
