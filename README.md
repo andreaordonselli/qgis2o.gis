@@ -111,7 +111,7 @@ margins, legend, north, scale, title</td>
 </tr>
 <tr>
 <td>-</td>
-<td>descriptive sidebar divided into tabs, graphics optimized for </br>smartphones</td>
+<td>descriptive sidebar divided into tabs, graphics optimized for smartphones</td>
 </tr>
 <tr>
 <td>-</td>
