@@ -52,8 +52,7 @@ Demo Full version at https://opengis.it/full-version/
 </tr>
 <tr>
 <td>basic layerswitcher</td>
-<td>advanced layerswitcher with transparency / zoom extension / move layers / legend / reduced themes / automatic open-close /
-based on monitor size
+<td>advanced layerswitcher with transparency / zoom extension /<br/> move layers / legend / reduced themes /<br/> automatic open-close / based on monitor size
 </tr>
 <tr>
 <td>scalebar</td>
@@ -61,7 +60,7 @@ based on monitor size
 </tr>
 <tr>
 <td>single symbology / categorized / graduated / svg / raster also in bands</td>
-<td>single symbology / categorized and merged / graduated / svg / raster also in bands</td>
+<td>single symbology / categorized and merged /<br/> graduated / svg / raster also in bands</td>
 </tr>
 <tr>
 <td>basic browser printing</td>
