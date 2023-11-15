@@ -755,7 +755,8 @@ class TreeLayerItem(QTreeWidgetItem):
             self.setCheckState(0, Qt.Unchecked)
         self.visibleItem = QTreeWidgetItem(self)
         self.visibleCheck = QCheckBox()
-        vis = layer.customProperty("qgis2opengis/Visible", True)
+        #vis = layer.customProperty("qgis2web/Visible", True)
+        vis = layer.customProperty("qgis2web/Visible", False)
         if vis == 0 or str(vis).lower() == "false":
             self.visibleCheck.setChecked(False)
         else:
@@ -805,8 +806,8 @@ class TreeLayerItem(QTreeWidgetItem):
             for option in options:
                 self.attr = QTreeWidgetItem(self)
                 self.attrWidget = QComboBox()
-                self.attrWidget.addItem("no label")
                 self.attrWidget.addItem("inline label")
+                self.attrWidget.addItem("no label")
                 self.attrWidget.addItem("header label")
                 custProp = layer.customProperty("qgis2opengis/popup/" + option)
                 if (custProp != "" and custProp is not None):
