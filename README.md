@@ -7,18 +7,16 @@ QGIS plugin to make <b>Lite version of OpenGIS - open source webgis</b>, startin
 Made with OpenLayers, it replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
 No server-side software required.
 
-Improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
-
-Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) v.3.16.0 repository
+Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) v.3.16.0 repository, introduces improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
 
 Demo Lite version at https://opengis.it/lite-version/
-![lite](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/be86035c-78be-4ebb-9156-eb1b1da182f8)
+![lite](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/a013e5a8-fe79-4fec-aa6d-fd6a024de1a5)
 
-Demo Full version at https://opengis.it/demo
-![full](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/98d00bd6-988a-4801-b449-844b5d4bf0f3)
+Demo Full version at https://opengis.it/full-version/
+![full](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/d10b5b6d-3d0d-4715-be90-87e69fb9ec1d)
 
 
-<h2>Differences between Lite and full Version</h2>
+<h2>Differences between Lite and Full Version</h2>
 
 <table>
 <thead>
@@ -54,9 +52,7 @@ Demo Full version at https://opengis.it/demo
 </tr>
 <tr>
 <td>basic layerswitcher</td>
-<td>advanced layerswitcher with transparency / zoom extension /</br>
-move layers / legend / reduced themes / automatic open-close</br>
-based on monitor size
+<td>advanced layerswitcher with transparency / zoom extension /<br/> move layers / legend / reduced themes /<br/> automatic open-close / based on monitor size
 </tr>
 <tr>
 <td>scalebar</td>
@@ -64,13 +60,21 @@ based on monitor size
 </tr>
 <tr>
 <td>single symbology / categorized / graduated / svg / raster also in bands</td>
-<td>single symbology / categorized and merged / graduated / svg / raster also in bands</td>
+<td>single symbology / categorized and merged /<br/> graduated / svg / raster also in bands</td>
 </tr>
 <tr>
 <td>basic browser printing</td>
 <td>advanced printing, orientation customization, sheet size,</br>
 margins, legend, north, scale, title</td>
 </tr>
+<tr>
+<td>-</td>
+<td>integration with ol-ext and jquery libraries</td>
+</tr>
+<tr>
+<td>-</td>
+<td>increase openlayers library version from 3 to 6.15.1</td>
+</tr> 
 <tr>
 <td>-</td>
 <td>reserved version protected by access credentials</td>
@@ -93,18 +97,6 @@ margins, legend, north, scale, title</td>
 </tr>
 <tr>
 <td>-</td>
-<td>table view of layer attributes with quick or</br>
-in-depth search filters on one or more fields</td>
-</tr>
-<tr>
-<td>-</td>
-<td>spatial query (querying features of layers chosen through</br>
-personalized intersection with drawn geometries, selection in map</br>
-or cadastral particles) with result in table that can be grouped</br>
-by layer or other, downloadable in xlsx or docx.
-</tr>
-<tr>
-<td>-</td>
 <td>navigable mini map</td>
 </tr>
 <tr>
@@ -113,15 +105,11 @@ by layer or other, downloadable in xlsx or docx.
 </tr>
 <tr>
 <td>-</td>
-<td>thematic maps with related permalink</td>
-</tr> 
-<tr>
-<td>-</td>
 <td>google streetview</td>
 </tr>
 <tr>
 <td>-</td>
-<td>descriptive sidebar divided into tabs, graphics optimized for </br>smartphones</td>
+<td>descriptive sidebar divided into tabs, graphics optimized for smartphones</td>
 </tr>
 <tr>
 <td>-</td>
@@ -134,122 +122,34 @@ by layer or other, downloadable in xlsx or docx.
 </tbody>
 </table>
 
-<h2>Installation</h2>
-<ul>
-    <li>In QGIS, select <code>Plugins > Manage and Install Plugins...</code></li>
-</ul>
-<p>or:</p>
-<ul>
-    <li>Download and unzip to your QGIS plugins directory</li>
-</ul>
+<h2>OpenGIS Pro Version</h2>
+It is possible to access the Pro version only with hosting on OpenGIS servers, write to us at <a href="mailto:info@opengis.it">info@opengis.it</a> for more information.</br>
+The Pro version is like the Full version with added ones:
+<li>thematic maps with related permalink. instant filter of the layers present in the layerswitcher.</li>
+<li>table view of layer attributes with quick or in-depth search filters on one or more fields</li>
+<li>spatial query (querying features of layers chosen through personalized intersection with drawn geometries, selection in map or cadastral particles) with result in table that can be grouped by layer or other, downloadable in xlsx or docx.</li>
+Demo Pro version at https://opengis.it/demo/
 
-<h2>Usage</h2>
-<p>Prepare your map as far as possible in QGIS, as you want it to appear in
-your OpenGIS webmap. Specific tasks you can carry out to improve your OpenGIS include:
-</p>
-<ul>
-    <li>Set background and highlight colours in <code>Project > Project Properties...</code></li>
-    <li>Give your layers human-friendly names in the <code>Layers Panel</code> </li>
-    <li>Give your layer columns human friendly names via <code>Layer > Properties > Fields > Alias</code></li>
-    <li>Hide the columns you don't want to appear in your popups by changing their Edit widget to "Hidden"</li>
-    <li>If any of your fields contain image filenames, change their Edit widget to "Photo" to have the images appear in popups</li>
-    <li>Style your layers, and set their scale-dependent visibility, if required</li>
-</ul>
-<p>Run qgis2opengis from the Web menu, or via its icon.</p>
-<p>The tabs at the top allow you to set up your project. All options are written
-to your QGIS project, so save your project if you want to keep these settings.</p>
+<h2>Installation and usage</h2>
 
-<h3>Layer options</h3>
-<dl>
-    <dt>Popup fields</dt>
-        <dd>Specify how each field will be labelled in popups</dd>
-    <dt>Popups</dt>
-        <dd>Specify, whether or not a layer shows a popup on a click. If not, the layer is not even clickable</dd>
-    <dt>Visible</dt>
-        <dd>Select whether the layer will be visible on map load. This only
-            determines visibility - the layer will be loaded regardless of this
-            setting</dd> 
-    <dt>Encode to JSON</dt>
-        <dd>If unchecked, WFS layers will remain remote WFS layers in the
-            webmap. If checked, the layer will be written to a local GeoJSON
-            file</dd>
-    <dt>Cluster</dt>
-        <dd>Cluster point features</dd>
-</dl>
+See OpenGIS Knowledge base at https://www.opengis.it/docs/
 
-<h3>General options</h3>
-
-<h4>Data export</h4>
-<dl>
-    <dt>Export folder</dt>
-        <dd>The folder where the webmap will be saved</dd> 
-    <dt>Minify GeoJSON files</dt>
-        <dd>Remove unnecessary whitespace from exported GeoJSON to reduce file
-            size</dd>
-    <dt>Precision</dt>
-        <dd>Simplify geometry to reduce file size</dd>
-</dl>
-
-<h4>Scale/Zoom</h4>
-<dl>
-    <dt>Extent</dt>
-        <dd>Either match the current QGIS view or show all contents of all
-            layers (only local GeoJSON and rasters, not WFS/WMS)</dd>
-    <dt>Max zoom level</dt>
-        <dd>How far the webmap will zoom in</dd>
-    <dt>Min zoom level</dt>
-        <dd>How far the webmap will zoom out</dd>
-    <dt>Restrict to extent</dt>
-        <dd>Prevent panning or zooming beyond the selected extent</dd>
-</dl>
-
-<h4>Appearance</h4>
-<dl>
-    <dt>Add address search</dt>
-        <dd>Add field to allow searching for locations (geocode)</dd>
-    <dt>Add layers list</dt>
-        <dd>Include list of layers (with legend icons, where possible)</dd>
-    <dt>Add measure tool</dt>
-        <dd>Include interactive measuring widget</dd>
-    <dt>Attribute filter</dt>
-        <dd>Every supported field of all layers are listed as well as the type and layers they occur in. Selected attributes will be used to filter the webmap and all layers that contain the attribute with the same name.</dd>
-    <dt>Geolocate user</dt>
-        <dd>Show user's location on map</dd>
-    <dt>Highlight on hover</dt>
-        <dd>Highlight features on mouseover</dd>
-    <dt>Layer search</dt>
-        <dd>Add option to search for values in layer field values</dd>
-    <dt>Match project CRS</dt>
-        <dd>Create webmap in same projection as QGIS project, otherwise the
-        webmap is projected in EPSG:3857</dd>
-    <dt>Show popups on hover</dt>
-        <dd>Show popups when mouse hovers over features</dd>
-    <dt>Template</dt>
-        <dd>Select HTML template for webmap - add your own templates to the
-            /qgis2opengis/templates directory in your current QGIS3 profile 
-            folder</dd>
-</dl>
-
-<h2>Update Plan</h2>
-<li>integration with ol-ext and jquery libraries</li>
-<li>increase of the openlayers version from 3 to 6.15.1</li>
-<li>improved layerswitcher with reduced symbologies and predefined base layers</li>
+<h2>OpenGIS Lite Update Plan</h2>
+<li>update help with some basic advice useful for setting up the map</li>
+<li>improved layerswitcher with reduced symbologies and predefined base layer "White background"</li>
 <li>wms layer query as full version</li>
 <li>show project coordinates</li>
 <li>improve popup by inserting queried layer title</li>
 <li>layer, layer group tree management as in qgis</li>
 <li>bug fix that doesn't allow writing apostrophes in layer names</li>
 <li>improve visibility for smartphones (deactivate visibility of measurement tools and more)</li>
-<li>change default setting: the layers visible in qgis will be set as not visible by default</li>
-<li>change default: all layers acquire popup inline labels by default</li>
-
 
 <h2>Reporting bugs</h2>
-<p>Please report any problems you have with qgis2opengis. Without this feedback, I
+<p>Please report any problems you have with OpenGIS. Without this feedback, I
 am often completely unaware that a problem exists. To ensure no time or effort
 is wasted in bug reporting, please follow these steps:</p>
 <ol>
-    <li>Make sure you are using the latest release of qgis2opengis</li>
+    <li>Make sure you are using the latest release of plugin</li>
     <li>Check the issues on Github to see whether the bug has already been
         reported, and if so, read through all the comments on the issue, and
         add any additional information from your experience of the bug</li>
@@ -259,17 +159,16 @@ is wasted in bug reporting, please follow these steps:</p>
     <li>Raise a Github issue, including:
     <ul>
         <li>only one bug per Github issue</li>
-        <li>the qgis2opengis version (or make it clear you are using Github master
-            branch)</li>
+        <li>the plugin version</li>
         <li>any Python error text/stack trace which occurs</li>
-        <li>browser JS console errors - press F12 in qgis2opengis to open the 
+        <li>browser JS console errors - press F12 in browser to open the 
             developer toolbar and find the console</li>
         <li>screenshot of your settings</li>
         <li>screenshot of the output</li>
         <li>a link to the data you used, if possible</li>
     </ul></li>
 </ol>
-<p>The stability of qgis2opengis relies on your bug reports, so please keep them
+<p>The stability of OpenGIS relies on your bug reports, so please keep them
 coming.</p>
 
 <h2>Credits</h2>
