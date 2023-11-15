@@ -14,8 +14,13 @@ Demo Lite version at https://opengis.it/lite-version/
 
 Demo Full version at https://opengis.it/full-version/
 ![full](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/d10b5b6d-3d0d-4715-be90-87e69fb9ec1d)
-
-
+</br>
+</br>
+</br>
+[<img src="https://github.com/andreaordonselli/qgis2opengis/assets/89784373/d4f36894-4fe1-4a3a-80c9-5a838b06abac">](https://www.opengis.it/buy-me-a-coffee/)</br>
+<b>🎁 Receive OpenGIS Full as a gift 🎁</b>
+</br>
+</br>
 <h2>Differences between Lite and Full Version</h2>
 
 <table>
