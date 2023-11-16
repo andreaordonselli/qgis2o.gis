@@ -98,7 +98,7 @@ margins, legend, north, scale, title</td>
 </tr>
 <tr>
 <td>-</td>
-<td>navigable mini map</td>
+<td>overview map (navigable mini map)</td>
 </tr>
 <tr>
 <td>-</td>
