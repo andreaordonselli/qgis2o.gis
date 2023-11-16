@@ -57,7 +57,7 @@ Demo Full version at https://opengis.it/full-version/
 </tr>
 <tr>
 <td>basic layerswitcher</td>
-<td>advanced layerswitcher with transparency / zoom extension /<br/> move layers / legend / reduced themes /<br/> automatic open-close / based on monitor size
+<td>advanced layerswitcher with transparency / zoom extension /<br/> move layers / legend / reduced themes /<br/> automatic open-close based on monitor size
 </tr>
 <tr>
 <td>scalebar</td>
