@@ -82,7 +82,7 @@ margins, legend, north, scale, title</td>
 </tr> 
 <tr>
 <td>-</td>
-<td>coordinates in different crs</td>
+<td>coordinates in different crs on mouse move</td>
 </tr>  
 <tr>
 <td>-</td>
@@ -115,10 +115,6 @@ margins, legend, north, scale, title</td>
 <tr>
 <td>-</td>
 <td>query wms layer</td>
-</tr>
-<tr>
-<td>-</td>
-<td>coordinates when moving the mouse in different epsg</td>
 </tr>
 </tbody>
 </table>
