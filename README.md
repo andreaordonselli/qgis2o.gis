@@ -27,8 +27,8 @@ See OpenGIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis
 <table>
 <thead>
 <tr>
-<th>qgis2web openlayers export</th>
-<th>qgis2opengis openlayers export</th>
+<th>qgis2web</th>
+<th>qgis2opengis</th>
 </tr>
 </thead>
 <tbody>
