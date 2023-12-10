@@ -2,39 +2,36 @@
 
 ![image](https://www.opengis.it/a_opengis/icon/logo_opengis/opengis_logo.png)
 
-QGIS plugin to make <b>Lite version of OpenGIS - open source webgis</b>, starting from your current QGIS project.
+QGIS plugin to make <b>OpenGIS - open source webgis</b>, starting from your current QGIS project.
 
 Made with OpenLayers, it replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
 No server-side software required.
 
-Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) v.3.16.0 repository, introduces improvements and new features listed at [releases](https://github.com/andreaordonselli/qgis2opengis/releases)
-
-Demo Lite version at https://opengis.it/lite-version/
-![lite](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/a013e5a8-fe79-4fec-aa6d-fd6a024de1a5)
-
-Demo Full version at https://opengis.it/full-version/
-![full](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/d10b5b6d-3d0d-4715-be90-87e69fb9ec1d)
+Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) repository, it enhances the openlayers export.
 </br>
 </br>
 </br>
 [<img src="https://github.com/andreaordonselli/qgis2opengis/assets/89784373/d4f36894-4fe1-4a3a-80c9-5a838b06abac">](https://www.opengis.it/buy-me-a-coffee/)</br>
-<b>🎁 Donate a coffee to become OpenGIS Supporter and receive the latest Full version as a gift 🎁</b>
+<b>🎁 Donate a coffee to support the development of qgis2web and OpenGIS, and receive qgis2opengis 🎁</b>
 </br>
 </br>
-<h2>Differences between Lite and Full Version</h2>
+</br>
+Demo at https://opengis.it/full-version/
+![full](https://github.com/andreaordonselli/qgis2opengis/assets/89784373/d10b5b6d-3d0d-4715-be90-87e69fb9ec1d)
 
+<h2>Installation and usage</h2>
+
+See OpenGIS Knowledge base at https://www.opengis.it/docs/
+
+<h2>Differences between qgis2web openlayers export and qgis2opengis</h2>
 <table>
 <thead>
 <tr>
-<th>OpenGIS Lite Version</th>
-<th>OpenGIS Full Version</th>
+<th>qgis2web openlayers export</th>
+<th>qgis2opengis</th>
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>logo and title</td>
-<td>logo and title</td>
-</tr>
 <tr>
 <td>measure length / area</td>
 <td>measure length /area / circle</td>
@@ -71,6 +68,10 @@ Demo Full version at https://opengis.it/full-version/
 <td>basic browser printing</td>
 <td>advanced printing, orientation customization, sheet size,</br>
 margins, legend, north, scale, title</td>
+</tr>
+<tr>
+<td>-</td>
+<td>logo and title</td>
 </tr>
 <tr>
 <td>-</td>
@@ -128,22 +129,8 @@ The Pro version is like the Full version with added ones:
 <li>spatial query (querying features of layers chosen through personalized intersection with drawn geometries, selection in map or cadastral particles) with result in table that can be grouped by layer or other, downloadable in xlsx or docx</li>
 Demo Pro version at https://opengis.it/demo/
 
-<h2>Installation and usage</h2>
-
-See OpenGIS Knowledge base at https://www.opengis.it/docs/
-
-<h2>OpenGIS Lite Update Plan</h2>
-<li>update help with some basic advice useful for setting up the map</li>
-<li>improved layerswitcher with reduced symbologies and predefined base layer "White background"</li>
-<li>wms layer query as full version</li>
-<li>show project coordinates</li>
-<li>improve popup by inserting queried layer title</li>
-<li>layer, layer group tree management as in qgis</li>
-<li>bug fix that doesn't allow writing apostrophes in layer names</li>
-<li>improve visibility for smartphones (deactivate visibility of measurement tools and more)</li>
-
 <h2>Reporting bugs</h2>
-<p>Please report any problems you have with OpenGIS. Without this feedback, I
+<p>Please report any problems you have with qgis2opengis. Without this feedback, I
 am often completely unaware that a problem exists. To ensure no time or effort
 is wasted in bug reporting, please follow these steps:</p>
 <ol>
@@ -166,11 +153,11 @@ is wasted in bug reporting, please follow these steps:</p>
         <li>a link to the data you used, if possible</li>
     </ul></li>
 </ol>
-<p>The stability of OpenGIS relies on your bug reports, so please keep them
+<p>The stability of qgis2opengis relies on your bug reports, so please keep them
 coming.</p>
 
 <h2>Credits</h2>
-<p>qgis2opengis was born as a branch of the qgis2web v.3.16.0 repository, for OpenLayers export only, and adds many improvements and features.</p>
+<p>qgis2opengis was born as a branch of the qgis2web repository, for OpenLayers export only, and adds many improvements and features.</p>
 <p>Special thanks go to the creators of qgis2web: Tom Chadwin, Riccardo Klinger, Victor Olaya, Nyall Dawson and to all the users of github.com, stackoverflow.com and gis.stackexchange.com</p>
 <ul>
     <li>@tomchadwin</li>
