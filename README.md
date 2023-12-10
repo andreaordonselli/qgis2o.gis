@@ -12,7 +12,7 @@ Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) repository, it 
 </br>
 </br>
 [<img src="https://github.com/andreaordonselli/qgis2opengis/assets/89784373/2fd38292-0729-43d0-b8e2-88b1e8994cc1">](https://www.opengis.it/buy-me-a-coffee/)</br>
-<b>🎁 Donate a coffee to support the development of qgis2web and OpenGIS, and receive qgis2opengis 🎁</b>
+<b>🎁 Donate a coffee to support the development of qgis2web and OpenGIS, and receive qgis2opengis as a gift 🎁</b>
 </br>
 </br>
 </br>
