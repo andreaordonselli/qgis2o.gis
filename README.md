@@ -21,7 +21,7 @@ Demo at https://opengis.it/full-version/
 
 <h2>Installation and usage</h2>
 
-See OpenGIS Knowledge base at https://www.opengis.it/docs/
+See OpenGIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.it/docs-category/opengis/)
 
 <h2>Differences between qgis2web openlayers export and qgis2opengis</h2>
 <table>
