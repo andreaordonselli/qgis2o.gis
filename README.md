@@ -34,7 +34,7 @@ See OpenGIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis
 <tbody>
 <tr>
 <td>measure length / area</td>
-<td>measure length /area / circle</td>
+<td>measure length /area / radius</td>
 </tr>
 <tr>
 <td>search address</td>
