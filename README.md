@@ -23,12 +23,12 @@ Demo at [https://opengis.it/qgis2opengis/](https://www.opengis.it/qgis2opengis/)
 
 See OpenGIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.it/docs-category/opengis/)
 
-<h2>Differences between qgis2web openlayers export and qgis2opengis</h2>
+<h2>Differences between qgis2web and qgis2opengis openlayers export</h2>
 <table>
 <thead>
 <tr>
 <th>qgis2web openlayers export</th>
-<th>qgis2opengis</th>
+<th>qgis2opengis openlayers export</th>
 </tr>
 </thead>
 <tbody>
