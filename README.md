@@ -115,7 +115,7 @@ margins, legend, north, scale, title</td>
 </tr>
 <tr>
 <td>-</td>
-<td>query wms layer</td>
+<td>dedicated query for wms layer</td>
 </tr>
 </tbody>
 </table>
