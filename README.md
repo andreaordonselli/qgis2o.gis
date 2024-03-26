@@ -50,10 +50,6 @@ See OpenGIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis
 <td>advanced browsable popup with current geometry highlighting</td>
 </tr>
 <tr>
-<td>clusters for points and labels</td>
-<td>clusters for points and labels</td>
-</tr>
-<tr>
 <td>basic layerswitcher</td>
 <td>advanced layerswitcher with transparency / zoom extension /<br/> move layers / legend / reduced themes /<br/> automatic open-close based on monitor size
 </tr>
