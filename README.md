@@ -1,6 +1,6 @@
 <h1>qgis2opengis</h1>
 
-![image](https://www.opengis.it/a_opengis/icon/logo_opengis/opengis_logo.png)
+![image](https://www.opengis.it/a_opengis/icon/logo_o.gis/opengis_logo.png)
 
 QGIS plugin to make <b>OpenGIS - open source webgis</b>, starting from your current QGIS project.
 
@@ -17,7 +17,7 @@ Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) repository, it 
 </br>
 </br>
 Demo at [https://opengis.it/qgis2opengis/](https://www.opengis.it/qgis2opengis/)
-[<img src="https://github.com/andreaordonselli/qgis2opengis/assets/89784373/ea3c9fe3-9a9b-4125-bfb2-e50ef9d8eaab">](https://www.opengis.it/qgis2opengis/)
+[<img src="https://github.com/andreaordonselli/qgis2opengis/assets/89784373/869f99cd-7478-47de-92e2-85086875a8d2">](https://www.opengis.it/qgis2opengis/)
 
 
 <h2>Installation and usage</h2>
