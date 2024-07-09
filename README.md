@@ -121,7 +121,7 @@ margins, legend, north, scale, title</td>
 It is possible to access the Pro version only with hosting on OpenGIS servers, write to us at <a href="mailto:info@opengis.it">info@opengis.it</a> for more information.</br>
 The Pro version is like the Full version with added ones:
 <li>reserved version protected by access credentials</li>
-<li>thematic maps with related permalink. instant filter of the layers present in the layerswitcher</li>
+<li>thematic maps with related permalink (instant filter of the layers present in legend)</li>
 <li>table view of layer attributes with quick or in-depth search filters on one or more fields</li>
 <li>spatial query (querying features of layers chosen through personalized intersection with drawn geometries, selection in map or cadastral particles) with result in table that can be grouped by layer or other, downloadable in xlsx or docx</li>
 Demo Pro version at https://opengis.it/demo/
