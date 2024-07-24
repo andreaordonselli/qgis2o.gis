@@ -1,8 +1,8 @@
-<h1>qgis2opengis</h1>
+<h1>qgis2o.gis</h1>
 
-![image](https://www.opengis.it/a_opengis/icon/logo_o.gis/opengis_logo.png)
+![image](https://www.opengis.it/a_opengis/icon/logo_o.gis/o.gis-logo.png)
 
-QGIS plugin to make <b>OpenGIS - open source webgis</b>, starting from your current QGIS project.
+QGIS plugin to make <b>O.GIS - open source webgis</b>, starting from your current QGIS project.
 
 Made with OpenLayers, it replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
 No server-side software required.
@@ -12,24 +12,24 @@ Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) repository, it 
 </br>
 </br>
 [<img src="https://github.com/andreaordonselli/qgis2opengis/assets/89784373/2fd38292-0729-43d0-b8e2-88b1e8994cc1">](https://www.opengis.it/buy-me-a-coffee/)</br>
-<b>🎁 Donate a coffee to support the development of qgis2web and OpenGIS, and receive qgis2opengis as a gift 🎁</b>
+<b>🎁 Donate a coffee to support the development of qgis2web and O.GIS, and receive qgis2o.gis as a gift 🎁</b>
 </br>
 </br>
 </br>
-Demo at [https://opengis.it/qgis2opengis/](https://www.opengis.it/qgis2opengis/)
+Demo at [https://www.opengis.it/qgis2opengis/](https://www.opengis.it/qgis2o-gis/)
 [<img src="https://github.com/andreaordonselli/qgis2opengis/assets/89784373/869f99cd-7478-47de-92e2-85086875a8d2">](https://www.opengis.it/qgis2opengis/)
 
 
 <h2>Installation and usage</h2>
 
-See OpenGIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.it/docs-category/opengis/)
+See O.GIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.it/docs-category/opengis/)
 
-<h2>Differences between qgis2web and qgis2opengis openlayers export</h2>
+<h2>Differences between qgis2web and qgis2o.gis openlayers export</h2>
 <table>
 <thead>
 <tr>
 <th>qgis2web</th>
-<th>qgis2opengis</th>
+<th>qgis2o.gis</th>
 </tr>
 </thead>
 <tbody>
@@ -117,8 +117,8 @@ margins, legend, north, scale, title</td>
 </tbody>
 </table>
 
-<h2>OpenGIS Pro Version</h2>
-It is possible to access the Pro version only with hosting on OpenGIS servers, write to us at <a href="mailto:info@opengis.it">info@opengis.it</a> for more information.</br>
+<h2>O.GIS Pro Version</h2>
+It is possible to access the Pro version only with hosting on our servers, write to us at <a href="mailto:info@opengis.it">info@opengis.it</a> for more information.</br>
 The Pro version is like the Full version with added ones:
 <li>reserved version protected by access credentials</li>
 <li>thematic maps with related permalink (instant filter of the layers present in legend)</li>
@@ -127,7 +127,7 @@ The Pro version is like the Full version with added ones:
 Demo Pro version at https://opengis.it/demo/
 
 <h2>Reporting bugs</h2>
-<p>Please report any problems you have with qgis2opengis. Without this feedback, I
+<p>Please report any problems you have with qgis2o.gis . Without this feedback, I
 am often completely unaware that a problem exists. To ensure no time or effort
 is wasted in bug reporting, please follow these steps:</p>
 <ol>
@@ -150,11 +150,11 @@ is wasted in bug reporting, please follow these steps:</p>
         <li>a link to the data you used, if possible</li>
     </ul></li>
 </ol>
-<p>The stability of qgis2opengis relies on your bug reports, so please keep them
+<p>The stability of qgis2o.gis relies on your bug reports, so please keep them
 coming.</p>
 
 <h2>Credits</h2>
-<p>qgis2opengis was born as a branch of the qgis2web repository, for OpenLayers export only, and adds many improvements and features.</p>
+<p>qgis2o.gis was born as a branch of the qgis2web repository, for OpenLayers export only, and adds many improvements and features.</p>
 <p>Special thanks go to the creators of qgis2web: Tom Chadwin, Riccardo Klinger, Victor Olaya, Nyall Dawson and to all the users of github.com, stackoverflow.com and gis.stackexchange.com</p>
 <ul>
     <li>@tomchadwin</li>
