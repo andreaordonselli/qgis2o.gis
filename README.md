@@ -2,7 +2,7 @@
 
 ![image](https://www.opengis.it/a_opengis/icon/logo_o.gis/o.gis-logo.png)
 
-QGIS plugin to make <b>O.GIS - Open Source Webgis</b>, starting from your current QGIS project.
+QGIS plugin to make <b>O.GIS - Open Source WebGIS</b>, starting from your current QGIS project.
 
 Made with OpenLayers, it replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
 No server-side software required.
