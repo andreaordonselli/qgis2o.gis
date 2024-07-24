@@ -17,7 +17,7 @@ Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) repository, it 
 </br>
 </br>
 Demo at [https://www.opengis.it/qgis2o-gis/](https://www.opengis.it/qgis2o-gis/)
-[<img src="https://github.com/andreaordonselli/qgis2opengis/assets/89784373/869f99cd-7478-47de-92e2-85086875a8d2">](https://www.opengis.it/qgis2opengis/)
+[<img src="https://github.com/andreaordonselli/qgis2opengis/assets/89784373/869f99cd-7478-47de-92e2-85086875a8d2">](https://www.opengis.it/qgis2o-gis/)
 
 
 <h2>Installation and usage</h2>
