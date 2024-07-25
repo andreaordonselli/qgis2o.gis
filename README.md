@@ -1,6 +1,6 @@
 <h1>qgis2o.gis</h1>
 
-![image](https://www.opengis.it/a_opengis/icon/logo_o.gis/o.gis-logo.png)
+![image](https://www.opengis.it/a_o.gis/icon/logo_o.gis/o.gis-logo.png)
 
 QGIS plugin to make <b>O.GIS - Open Source WebGIS</b>, starting from your current QGIS project.
 
