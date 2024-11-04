@@ -104,6 +104,10 @@ margins, legend, north, scale, title</td>
 </tr>
 <tr>
 <td>-</td>
+<td>permalink query feature (shareable link to query a specific feature)</td>
+</tr>
+<tr>
+<td>-</td>
 <td>google streetview</td>
 </tr>
 <tr>
