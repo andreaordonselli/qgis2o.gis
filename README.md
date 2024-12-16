@@ -59,7 +59,7 @@ See O.GIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.i
 </tr>
 <tr>
 <td>single symbology / categorized / graduated / svg / raster also in bands</td>
-<td>single symbology / categorized and merged /<br/> graduated / svg / raster also in bands</td>
+<td>single symbology / categorized and merged /<br/> graduated / svg also base64 / raster also in bands</td>
 </tr>
 <tr>
 <td>basic browser printing</td>
