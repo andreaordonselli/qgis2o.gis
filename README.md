@@ -195,8 +195,6 @@ software:</p>
     <li>requestAnimationFrame polyfill, by @paulirish</li>
     <li>Function.prototype.bind polyfill, by @mozilla</li>
     <li>Proj4js, by @madair, @calvinmetcalf, and other</li>
-    <li>ol3-search-layer, by @ThomasG77</li>
-    <li>OSMBuildings, by @kekscom</li>
     <li>rbush, by @mourner</li>
     <li>Labelgun, by @JamesMilnerUK</li>
 </ul>
