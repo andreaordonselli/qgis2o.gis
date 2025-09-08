@@ -39,7 +39,7 @@ See O.GIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.i
 </tr>
 <tr>
 <td>search address</td>
-<td>search address, locate with GPS</td>
+<td>search address (with extension limit), locate with GPS</td>
 </tr>
 <tr>
 <td>search for feature data</td>
@@ -51,7 +51,7 @@ See O.GIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.i
 </tr>
 <tr>
 <td>basic layerswitcher</td>
-<td>advanced layerswitcher with transparency / zoom extension /<br/> move layers / legend / reduced themes /<br/> automatic open-close based on monitor size
+<td>advanced layerswitcher with transparency / zoom extension /<br/> move layers / legend / reduced themes /<br/> automatic open-close based on monitor size /<br/> symbology switcher
 </tr>
 <tr>
 <td>scalebar</td>
@@ -59,7 +59,7 @@ See O.GIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.i
 </tr>
 <tr>
 <td>single symbology / categorized / graduated / svg / raster also in bands</td>
-<td>single symbology / categorized and merged /<br/> graduated / svg also base64 / raster also in bands</td>
+<td>single symbology / categorized and merged /<br/> graduated / rule based / svg also base64 also with complex style /<br/> raster also in bands</td>
 </tr>
 <tr>
 <td>basic browser printing</td>
@@ -74,10 +74,6 @@ margins, legend, north, scale, title</td>
 <td>-</td>
 <td>integration with ol-ext and jquery libraries</td>
 </tr>
-<tr>
-<td>-</td>
-<td>increase openlayers library version from 3 to 6.15.1</td>
-</tr> 
 <tr>
 <td>-</td>
 <td>coordinates in different crs on mouse move</td>
@@ -108,6 +104,10 @@ margins, legend, north, scale, title</td>
 </tr>
 <tr>
 <td>-</td>
+<td>permalink query bookmark (shareable link to zoom on a specific point)</td>
+</tr>
+<tr>
+<td>-</td>
 <td>google streetview</td>
 </tr>
 <tr>
@@ -121,13 +121,14 @@ margins, legend, north, scale, title</td>
 </tbody>
 </table>
 
-<h2>O.GIS Pro Version</h2>
+<h2>O.GIS PRO Version</h2>
 It is possible to access the Pro version only with hosting on our servers, write to us at <a href="mailto:info@opengis.it">info@opengis.it</a> for more information.</br>
 The Pro version is like the Full version with added ones:
 <li>reserved version protected by access credentials</li>
 <li>thematic maps with related permalink (instant filter of the layers present in legend)</li>
 <li>table view of layer attributes with quick or in-depth search filters on one or more fields</li>
 <li>spatial query (querying features of layers chosen through personalized intersection with drawn geometries, selection in map or cadastral particles) with result in table that can be grouped by layer or other, downloadable in xlsx or docx</li>
+<li>google street view pro</li>
 Demo Pro version at https://opengis.it/demo/
 
 <h2>Reporting bugs</h2>
