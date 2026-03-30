@@ -122,6 +122,7 @@ margins, legend, north, scale, title</td>
 </table>
 
 <h2>O.GIS PRO Version</h2>
+
 O.GIS PRO version is described on the [Services](https://www.opengis.it/servizi/) page and demo version at https://opengis.it/demo/
 
 <h2>Reporting bugs</h2>
