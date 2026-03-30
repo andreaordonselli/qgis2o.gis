@@ -122,14 +122,7 @@ margins, legend, north, scale, title</td>
 </table>
 
 <h2>O.GIS PRO Version</h2>
-It is possible to access the Pro version only with hosting on our servers, write to us at <a href="mailto:info@opengis.it">info@opengis.it</a> for more information.</br>
-The Pro version is like the Full version with added ones:
-<li>reserved version protected by access credentials</li>
-<li>thematic maps with related permalink (instant filter of the layers present in legend)</li>
-<li>table view of layer attributes with quick or in-depth search filters on one or more fields</li>
-<li>spatial query (querying features of layers chosen through personalized intersection with drawn geometries, selection in map or cadastral particles) with result in table that can be grouped by layer or other, downloadable in xlsx or docx</li>
-<li>google street view pro</li>
-Demo Pro version at https://opengis.it/demo/
+O.GIS PRO version is described on the [Services](https://www.opengis.it/servizi/) page and demo version at https://opengis.it/demo/
 
 <h2>Reporting bugs</h2>
 <p>Please report any problems you have with qgis2o.gis . Without this feedback, I
