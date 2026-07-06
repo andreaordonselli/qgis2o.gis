@@ -7,7 +7,7 @@ QGIS plugin to make <b>O.GIS - Open Source WebGIS</b>, starting from your curren
 Made with OpenLayers, it replicates as many aspects of the project as it can, including layers, styles (categorized, graduated and svg icon) and other.
 No server-side software required.
 
-Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) repository, it enhances the openlayers export.
+Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) repository, it enhances the OpenLayers export.
 </br>
 </br>
 </br>
