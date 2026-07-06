@@ -67,6 +67,11 @@ See O.GIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.i
 margins, legend, north, scale, title</td>
 </tr>
 <tr>
+<td>PBF Vector Tile</td>
+<td>Searchable and highlightable PBF Vector Tiles</td>
+</tr>
+</tr>
+<tr>
 <td>-</td>
 <td>logo and title</td>
 </tr>
@@ -81,10 +86,6 @@ margins, legend, north, scale, title</td>
 <tr>
 <td>-</td>
 <td>bookmarks (zoom in selected areas e.g. neighborhoods)</td>
-</tr>
-<tr>
-<td>-</td>
-<td>label repetition along a linear path</td>
 </tr> 
 <tr>
 <td>-</td>
