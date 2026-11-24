@@ -1,4 +1,4 @@
-<h1>qgis2ogis</h1>
+<h1>qgis2o.gis</h1>
 
 ![image](https://www.opengis.it/a_o.gis/icon/logo_o.gis/o.gis-logo.png)
 
@@ -11,8 +11,8 @@ Born from the [qgis2web](https://github.com/tomchadwin/qgis2web) repository, it 
 </br>
 </br>
 </br>
-[<img src="https://github.com/andreaordonselli/qgis2ogis/assets/89784373/2fd38292-0729-43d0-b8e2-88b1e8994cc1">](https://www.opengis.it/buy-me-a-coffee/)</br>
-<b>🎁 Contribute to support the development of qgis2web and O.GIS, and receive qgis2ogis as a token of our gratitude 🎁</b>
+[<img src="https://github.com/andreaordonselli/qgis2o.gis/assets/89784373/2fd38292-0729-43d0-b8e2-88b1e8994cc1">](https://www.opengis.it/buy-me-a-coffee/)</br>
+<b>🎁 Contribute to support the development of qgis2web and O.GIS, and receive qgis2o.gis as a token of our gratitude 🎁</b>
 </br>
 </br>
 </br>
@@ -24,12 +24,12 @@ Demo at [https://www.opengis.it/qgis2o-gis/](https://www.opengis.it/qgis2o-gis/)
 
 See O.GIS Knowledge base at [https://www.opengis.it/docs/](https://www.opengis.it/docs-category/opengis/)
 
-<h2>Differences between qgis2web and qgis2ogis openlayers export</h2>
+<h2>Differences between qgis2web and qgis2o.gis openlayers export</h2>
 <table>
 <thead>
 <tr>
 <th>qgis2web</th>
-<th>qgis2ogis</th>
+<th>qgis2o.gis</th>
 </tr>
 </thead>
 <tbody>
@@ -127,7 +127,7 @@ margins, legend, north, scale, title</td>
 O.GIS PRO version is described on the [Services](https://www.opengis.it/servizi/) page and demo version at https://opengis.it/demo/
 
 <h2>Reporting bugs</h2>
-<p>Please report any problems you have with qgis2ogis . Without this feedback, I
+<p>Please report any problems you have with qgis2o.gis . Without this feedback, I
 am often completely unaware that a problem exists. To ensure no time or effort
 is wasted in bug reporting, please follow these steps:</p>
 <ol>
@@ -150,11 +150,11 @@ is wasted in bug reporting, please follow these steps:</p>
         <li>a link to the data you used, if possible</li>
     </ul></li>
 </ol>
-<p>The stability of qgis2ogis relies on your bug reports, so please keep them
+<p>The stability of qgis2o.gis relies on your bug reports, so please keep them
 coming.</p>
 
 <h2>Credits</h2>
-<p>qgis2ogis was born as a branch of the qgis2web repository, for OpenLayers export only, and adds many improvements and features.</p>
+<p>qgis2o.gis was born as a branch of the qgis2web repository, for OpenLayers export only, and adds many improvements and features.</p>
 <p>Special thanks go to the creators of qgis2web: Tom Chadwin, Riccardo Klinger, Victor Olaya, Nyall Dawson and to all the users of github.com, stackoverflow.com and gis.stackexchange.com</p>
 <ul>
     <li>@tomchadwin</li>
